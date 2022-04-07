@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Roboto&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-desatured-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --slightly-transparent-paragraph: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-stat-headings: hsla(0, 0%, 100%, 0.6);
+
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    font-size: 15px;
+    color:white;
+}
+
+.wrapper {
+    display:flex;
+    flex-direction: column;
+    width: 340px;
+    margin: 90px auto;
+    align-items: center;
+    text-align: center;
+    background: var(--dark-desatured-blue);
+    border-radius: 8px;
+ 
+}
+.item:first-of-type {
+    background-color: var(--soft-violet);
+    filter: brightness(80%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.item:last-of-type {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-bottom: 1.8rem;
+}
+
+.item {
+    margin: 0;
+    width: 100%;
+}
+
+img {
+    max-width:100%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+h1 {
+    font-family: Inter;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 1.8rem;
+    padding: 40px 25px 10px 25px;
+}
+
+.description {
+    padding: 10px 40px 0px 40px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: var(--slightly-transparent-paragraph);
+}   
+
+.accent {
+    color:var(--soft-violet);
+}
+
+.stats, .stats p {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+.stats p span {
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: var(--slightly-transparent-stat-headings);
+}
+
+
