@@ -26,7 +26,7 @@ body {
     display:flex;
     flex-direction: column;
     width: 340px;
-    margin: 90px auto;
+    margin: 90px auto 60px auto;
     align-items: center;
     text-align: center;
     background: var(--dark-desatured-blue);
@@ -98,6 +98,22 @@ h1 {
     text-transform: uppercase;
     font-size: 13px;
     color: var(--slightly-transparent-stat-headings);
+}
+
+.attribution {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.attribution a, .attribution a:visited, .attribution a:active {
+    text-decoration: none;
+    color: var(--soft-violet);  
+}
+
+.attribution a:hover {
+    opacity: 0.8;
 }
 
 
