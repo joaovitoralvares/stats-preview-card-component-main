@@ -9,6 +9,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Screenshots](#screenshots)
       - [Mobile Solution](#mobile-solution)
       - [Desktop Solution](#desktop-solution)
+- [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -29,6 +30,9 @@ Users should be able to:
 
 ### Desktop solution
 ![](./screenshots/desktop-screenshot.png)
+
+## Links
+- Live site - [stats-preview-card-component-main-pearl](https://stats-preview-card-component-main-pearl.vercel.app/)
 
 ## My process
 
